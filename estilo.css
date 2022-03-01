@@ -1,0 +1,60 @@
+body { /* define cor de fundo roxinha e texto centralizado na página */
+    background-color: #BDCAF0;
+    text-align: center;
+}
+
+div { /* dá um espaçamento entre os principais itens */
+    padding: 15px;
+}
+
+h1 { /* define a cor dos títulos, um azul mais escuro */
+    color: #002145;
+}
+
+p#subtitulo { /* define a fonte e cor do subtitulo, no caso um cinza */
+    font: bold 13pt sans-serif;
+    color: #727A90;
+}
+
+table {
+    margin: 0 auto !important;
+    border-radius: 5px;
+}
+
+section { /* define cor, tamanho e efeitos do corpo da página */
+    width: 50%;
+    margin: 0 auto;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    font: normal 12pt Arial;
+}
+
+span { /* partes em destaque */
+    font: bold 13pt Arial;
+    color: #002145;
+}
+
+button {
+    border-radius: 3px;
+    background-color: skyblue;
+}
+
+a:link, a:visited { /* esses aqui dão alguns efeitos pro link que leva pro cronograma.php */
+    text-decoration: none;
+    color: #4169E1;
+}
+
+a:hover {
+    color: #E07358;
+}
+
+footer {
+    color: #322D36;
+    font: italic 12pt sans-serif;
+}
+
+img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
