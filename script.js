@@ -66,6 +66,7 @@ function horas() {
         curso.innerHTML = ' ';
         imagem.src = 'descanso.png';
     }
+}
 
 // de acordo com o horário, diz em que aula eu estou e o prof que a ministra
 switch (semana) {
@@ -219,7 +220,7 @@ switch (semana) {
             qualAula.innerHTML = 'Não há aula.';
             imagem.src = 'descanso.png';
         break;
-    }
+    //}
     break;
     case 2: // TERÇA
         switch (hora) {
@@ -877,4 +878,4 @@ switch (semana) {
         imagem.src = 'descanso.png';
     break;
 }
-}
+//}

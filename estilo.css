@@ -3,16 +3,32 @@ body { /* define cor de fundo roxinha e texto centralizado na página */
     text-align: center;
 }
 
+/* Barra de rolagem */
+body::-webkit-scrollbar { width: 12px; } /* Largura */
+
+    body::-webkit-scrollbar-track { background: #6495ED; } /* Cor de destaque de fundo */
+
+    body::-webkit-scrollbar-thumb { /* Cor da barra em si */
+    background-color: #BDCAF0;
+    border-radius: 10px;
+    border: 2px solid #4169E1;
+    }
+
 div { /* dá um espaçamento entre os principais itens */
     padding: 15px;
 }
 
 h1 { /* define a cor dos títulos, um azul mais escuro */
     color: #002145;
+    font: bold 22pt; !important;
+    background:  linear-gradient(to right, #191970 25%, #4169E1 75%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:  transparent;
 }
 
 p#subtitulo { /* define a fonte e cor do subtitulo, no caso um cinza */
-    font: bold 13pt sans-serif;
+    font: bold 18pt sans-serif;
     color: #727A90;
 }
 
@@ -22,16 +38,16 @@ table {
 }
 
 section { /* define cor, tamanho e efeitos do corpo da página */
-    width: 50%;
+    width: 75vw;
     margin: 0 auto;
     background-color: ghostwhite;
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
-    font: normal 12pt Arial;
+    font: normal 16pt Arial;
 }
 
 span { /* partes em destaque */
-    font: bold 13pt Arial;
+    font: bold 16pt Arial;
     color: #002145;
 }
 
@@ -51,7 +67,7 @@ a:hover {
 
 footer {
     color: #322D36;
-    font: italic 12pt sans-serif;
+    font: italic 15pt sans-serif;
 }
 
 img {
